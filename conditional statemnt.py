@@ -1,4 +1,4 @@
-"""#condtion statmnt:
+"#condtion statmnt:
 x=1
 if x>5: #needed to be true 
     print("x is greater than 5")
@@ -45,9 +45,12 @@ if x<10:#if true will go to next if
         print(f"{x} is not a multiple of 2")
 else:
     print("x is greater than 10")
+    
+    
     """
 #condition statmnt using logic oprtor(and):
-"""x=8
+"""
+x=8
 if x<10 and x%2==0:
     print(f"{x} is lessthan 10 also the multiple of 2")
 else:
@@ -59,12 +62,11 @@ if x>10:
     print("greater than 10")
 else:
     print("x is 10 or less")
-    """
+    
 #
 x=5
 r="greater than 10" if x>10 else"10 or less"
 print(r)
-
 
 
 
