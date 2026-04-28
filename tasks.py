@@ -17,7 +17,7 @@ if x>0:
     print(f"{x} is a positive number")
 else:
     print(f"{x} is negative number")
-"""
+
 
 x=16
 if x%2==0:
@@ -50,13 +50,39 @@ print(sum)
 
 
 for i in range(1,4):
-    for k in range(2):
+    for j in range(i):
         print("*",end=" ")
-    print()    
+    print()
+    
 
+for i in range(1,4):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print() 
     
-    
-    
+for i in range(3,0,-1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print()
+ """
+
+for i in range(6,0,-2):
+    for j in range(2,i+1,2):
+        print(j,end=" ")
+    print()
+        
+
+
+
+
+
+
+
+
+ #creating set and assesing using for loop: 
+#ab={1,2,3,4,5}  
+#for set in ab:
+   # print(set)
     
     
 
