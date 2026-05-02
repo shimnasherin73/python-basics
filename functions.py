@@ -35,15 +35,24 @@ def even(db):
     else:
         print("is odd")
 even(11)
-"""
 
 def add(a,b,c):
     print(a+b+c)
 add(2,3)
+"""
+        
+#positional arguments/regular argmnts:
+ def sum(a,b,c):
+      print(f"name{a},age{b},mark{c}")
+ sum("shimna",24,30)
 
-def print_details(**kwargs):
-    for key,value in kwarg,items():
-        print(f"{key}:{value}")
-        
-        
-    
+#key word arguments:
+def details(**kwargs):
+    print(f' name : {kwargs["name"]} age:{kwargs["age"]} city:{kwargs["city"]} ')
+details(name="shimna",age=24,city="pmna")    
+
+#arbitrary argumnts:
+def sum(*args):
+    print(f'name:{args[0]} ,age:{args[1]},city:{args[2]}')
+sum("shimna",24,"pmna")
+
