@@ -39,7 +39,7 @@ even(11)
 def add(a,b,c):
     print(a+b+c)
 add(2,3)
-"""
+
         
 #positional arguments/regular argmnts:
  def sum(a,b,c):
@@ -53,6 +53,59 @@ details(name="shimna",age=24,city="pmna")
 
 #arbitrary argumnts:
 def sum(*args):
-    print(f'name:{args[0]} ,age:{args[1]},city:{args[2]}')
+    print(f'name:{args[0]} ,age:{args[1]},city:{args[2]}')+++
 sum("shimna",24,"pmna")
 
+#lambda function:
+add=lambda a,b:a+b
+print(add(3,5))
+
+#map()
+numbers=[1,2,3,4,5]
+squared=map(lambda x:x**2,numbers)
+print(list(squared))
+
+#filter():
+numbers=[1,2,3,4,5,6]
+even_numbers=filter(lambda x:x%2==0,numbers)
+print(list(even_numbers))
+
+#reduce():
+from functools import reduce
+numbers=[1,2,3,4,]
+sum_result=reduce(lambda x,y:x+y,numbers)
+print(sum_result)
+
+#hihger order():
+def increment(n):
+    return lambda x:x+n
+bc=increment(5)
+print(bc(10))
+
+#
+x=10
+def outer_function():
+ x=5
+ def inner_function():
+    x=2
+    print(x) 
+ inner_function()
+outer_function()
+print(x)
+
+#recursion: (finding the factorial using recursion)
+def factorial(n):
+    if n==0 or n==1 :
+        return 1
+    else:
+        return n*factorial(n-1)
+print(factorial(5))
+"""
+#fibonacci using recursion :    
+def fibonacci(n):
+    if n==1 or n==0:
+        return n
+    else:
+        return fibonacci(n-1)+ fibonacci(n-2)
+print(fibonacci(4))
+    

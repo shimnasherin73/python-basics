@@ -64,21 +64,22 @@ for i in range(3,0,-1):
     for j in range(1,i+1):
         print(j,end=" ")
     print()
- """
+ 
 
 for i in range(6,0,-2):
     for j in range(2,i+1,2):
         print(j,end=" ")
     print()
         
- #creating set and assesing using for loop: 
-#ab={1,2,3,4,5}  
-#for set in ab:
-   # print(set)
+#creating set and assesing using for loop: 
+ab={1,2,3,4,5}  
+for set in ab:
+   print(set)
+   """
     
 #functions to reverse s string:
 name="shimna"
-for i in range(len(name)-1,0,-1):
+for i in range (len(name)-1,0,-1):
     print(name[i],end=" ")
     
     
