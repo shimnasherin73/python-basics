@@ -75,13 +75,59 @@ for i in range(6,0,-2):
 ab={1,2,3,4,5}  
 for set in ab:
    print(set)
-   """
+
     
 #functions to reverse s string:
 name="shimna"
-for i in range (len(name)-1,0,-1):
+for i in range (len(name)-1,-1,-1):
     print(name[i],end=" ")
+
+
+#finding cube of a number using lambda():
+cube=lambda x:x**3
+print(cube(3))
+"""
+#
+a=[]
+def fibonacci(n):
+    for i in range(n+1):
+      if i==0 or i==1:
+           a.append(i)
+      else:
+          b= fibonacci(i-1)+ fibonacci(i-2)
+          a.append(b)
+    return a
+print(fibonacci(4))  
+
+
+
+# a = []
+
+# def fibonacci_series(n):
+#     for i in range(n + 1):
+#         if i == 0:
+#             a.append(0)
+#         elif i == 1:
+#             a.append(1)
+#         else:
+#             a.append(a[-1] + a[-2])
+
+#     return a
+
+# print(fibonacci_series(4))
+
+
+
+        
+
+
     
-    
+
+
+
+
+
+
+
 
     

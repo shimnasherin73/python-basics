@@ -14,7 +14,7 @@ print(s)
 
 #adding items to a list:
 b=["apple","banana"]
-b.append(6) #insert new item withou index
+b.append(6) #insert new item without index
 print(b)
 b.insert(0,"mango") #using index numbr
 print(b)
