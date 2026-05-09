@@ -1,0 +1,7 @@
+nums1=[1,2,2,4]
+nums2=[2,2]
+list=set(nums1 and nums2)
+print(list)
+
+
+

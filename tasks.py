@@ -88,33 +88,24 @@ cube=lambda x:x**3
 print(cube(3))
 """
 #
-a=[]
 def fibonacci(n):
-    for i in range(n+1):
-      if i==0 or i==1:
-           a.append(i)
-      else:
-          b= fibonacci(i-1)+ fibonacci(i-2)
-          a.append(b)
-    return a
-print(fibonacci(4))  
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+a = []
+
+for i in range(5):
+    a.append(fibonacci(i))
+
+print(a)
 
 
 
-# a = []
 
-# def fibonacci_series(n):
-#     for i in range(n + 1):
-#         if i == 0:
-#             a.append(0)
-#         elif i == 1:
-#             a.append(1)
-#         else:
-#             a.append(a[-1] + a[-2])
-
-#     return a
-
-# print(fibonacci_series(4))
 
 
 
