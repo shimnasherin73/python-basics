@@ -1,5 +1,6 @@
-#using while loop:
-"""x=0
+
+"""#using while loop:
+x=0
 while x<5:
     print(x)
     x+=1
@@ -10,8 +11,7 @@ if x>100:
 elif x<50:
     print(f"{x} is lessthan 50")
 else:
-    print("x is between 50 and 100")
-    
+    print("x is between 50 and 100")   
 x=6
 if x>0:
     print(f"{x} is a positive number")
@@ -86,7 +86,7 @@ for i in range (len(name)-1,-1,-1):
 #finding cube of a number using lambda():
 cube=lambda x:x**3
 print(cube(3))
-"""
+
 #
 def fibonacci(n):
     if n == 0:
@@ -103,7 +103,17 @@ for i in range(5):
 
 print(a)
 
+"""
+#class & object :
+class Class:
+    def __init__(self,name,age,):
+        self.name=name
+        self.age=age
+    
 
+     
+
+ 
 
 
 
