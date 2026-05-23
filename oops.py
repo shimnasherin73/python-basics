@@ -34,3 +34,11 @@ dog=Dog("buddy","yes")
 dog.speak()
 print(dog.tail)
 print(animal.name)
+
+#multiple inheritance:
+class Engine:
+   def start_engine(self):
+      print("Engine started")
+      
+class 
+      
