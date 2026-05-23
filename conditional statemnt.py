@@ -1,4 +1,4 @@
-"#condtion statmnt:
+#condtion statmnt:
 x=1
 if x>5: #needed to be true 
     print("x is greater than 5")
