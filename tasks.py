@@ -104,18 +104,7 @@ for i in range(5):
 print(a)
 
 """
-details="am studying data analytics"
-word=details.split()[-1]
-print(word)
 
-num1=[4,4,6,4,2]
-num2=[4,4,2]
-abc=set(num1 and num2)
-print(abc)
-
-
-fib=int(input("enter a number"))
-print(fib)
 
      
 

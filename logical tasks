@@ -14,4 +14,9 @@ def fibonacci(n):
     else:
         return fibonacci(n-1)+ fibonacci(n-2)
 print(fibonacci(a))
+
+array=[2,3,1,4]
+new=[]
+
+
     
