@@ -3,5 +3,15 @@ nums2=[2,2]
 list=set(nums1 and nums2)
 print(list)
 
+details="am studying data analytics"
+word=details.split()[-1]
+print(word)
 
-
+a=int(input("enter a number"))
+def fibonacci(n):
+    if n==1 or n==0:
+        return n
+    else:
+        return fibonacci(n-1)+ fibonacci(n-2)
+print(fibonacci(a))
+    

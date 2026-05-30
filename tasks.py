@@ -104,12 +104,18 @@ for i in range(5):
 print(a)
 
 """
-#class & object :
-class Class:
-    def __init__(self,name,age,):
-        self.name=name
-        self.age=age
-    
+details="am studying data analytics"
+word=details.split()[-1]
+print(word)
+
+num1=[4,4,6,4,2]
+num2=[4,4,2]
+abc=set(num1 and num2)
+print(abc)
+
+
+fib=int(input("enter a number"))
+print(fib)
 
      
 
