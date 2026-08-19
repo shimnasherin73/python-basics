@@ -1,4 +1,4 @@
-""" 
+
 try:
  x=10/0
 except ZeroDivisionError:
@@ -19,7 +19,7 @@ if abc==0:
 else:
     x=10/abc
     print(x) 
-"""
+
 #raising exception:
 abc=int(input("enter a value "))
 if abc==0:

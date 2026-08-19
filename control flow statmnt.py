@@ -1,5 +1,5 @@
 #continue statemnt :
-""""
+
 for i in range(5):
     if i==3:
         continue #will skip if the value of i become 3
@@ -27,5 +27,4 @@ for i in range(1,50):
     if i%3==0 and i%5==0: 
         print(i)
         break
-"""
 

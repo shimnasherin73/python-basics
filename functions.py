@@ -1,4 +1,4 @@
-"""
+
 a=20
 b=5
 print(a+b)
@@ -100,7 +100,7 @@ def factorial(n):
     else:
         return n*factorial(n-1)
 print(factorial(5))
-"""
+
 #fibonacci using recursion :    
 def fibonacci(n):
     if n==1 or n==0:
